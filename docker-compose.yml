@@ -1,8 +1,6 @@
 version: '3'
 services:
-  web:
+  rest:
     build: .
     ports:
-     - "10000:5000"
-  redis:
-    image: "redis:alpine"
+      - "30000:30000"
