@@ -43,17 +43,17 @@ print("__name__:", __name__)
 print()
 
 
-"""
 _host = "remotemysql.com"
 _usr = "fFFGNbw0B0"
 _pwd = "66VHtH6ctH"
 _db = "fFFGNbw0B0"
-"""
 
+"""
 _host = "127.0.0.1"
 _usr = "yan-nagler"
 _pwd = "qazQWE123"
 _db = "db"
+"""
 
 _port = 3306
 
