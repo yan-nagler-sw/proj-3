@@ -177,7 +177,8 @@ if (rc != db.rc_ok):
     print("Error: Failed to execute - db.open_conn")
     exit(1)
 
-app.run(host = '127.0.0.1', debug = True, port = 30000)
+#app.run(host = '127.0.0.1', debug = True, port = 30000)
+app.run(host = '0.0.0.0', debug = True, port = 30000)
 
 print()
 print()
