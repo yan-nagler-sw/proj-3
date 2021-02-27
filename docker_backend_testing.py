@@ -134,15 +134,4 @@ if (not resp.ok):
 
 print(resp.json())
 print()
-
-
-url = url_stop
-print(url)
-
-resp = requests.get(url)
-print(resp)
-if (not resp.ok):
-    print("Failed to execute request - GET")
-
-print()
 print()
