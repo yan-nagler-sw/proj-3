@@ -12,7 +12,6 @@ print()
 
 url_base = "http://127.0.0.1:30000"
 url_test = "{url}/test".format(url = url_base)
-url_stop = "{url}/stop_server".format(url = url_base)
 url_tbl = "{url}/{tbl}".format(url = url_base, tbl = db.tbl_users)
 
 
